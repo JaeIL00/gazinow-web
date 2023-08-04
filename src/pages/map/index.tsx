@@ -33,7 +33,7 @@ const MapPage = () => {
         }
     }, []);
 
-    return <NaverMap />;
+    return <>{directionData && <NaverMap direction={directionData} />}</>;
 };
 
 export default MapPage;

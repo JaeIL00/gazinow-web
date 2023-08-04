@@ -4,6 +4,7 @@ import RootRouter from "./pages";
 declare global {
     interface Window {
         google: any;
+        naver: any;
         initMap: () => void;
     }
 }
